@@ -4,12 +4,12 @@ Advanced AI system combining computer vision and NLP to analyze images and text 
 
 ## Features
 
-? Image analysis (ResNet50 features, object detection)  
-? Text analysis (sentiment, NER, statistics)  
-? Multi-modal content fusion  
-? LLM-powered summaries (OpenAI)  
-? Beautiful React frontend  
-? Flask REST API  
+- Image analysis (ResNet50 features, object detection)  
+- Text analysis (sentiment, NER, statistics)  
+- Multi-modal content fusion  
+- LLM-powered summaries (OpenAI)  
+- Beautiful React frontend  
+- Flask REST API  
 
 ## Tech Stack
 
@@ -81,10 +81,10 @@ Open browser: http://localhost:8000
 
 ### API Endpoints
 
-- `GET /` — Root endpoint
-- `POST /api/analyze/image` — Analyze image (multipart file)
-- `POST /api/analyze/text` — Analyze text (JSON body)
-- `POST /api/analyze/multimodal` — Analyze image + text
+- `GET /` â€” Root endpoint
+- `POST /api/analyze/image` â€” Analyze image (multipart file)
+- `POST /api/analyze/text` â€” Analyze text (JSON body)
+- `POST /api/analyze/multimodal` â€” Analyze image + text
 
 ### Example Usage
 
